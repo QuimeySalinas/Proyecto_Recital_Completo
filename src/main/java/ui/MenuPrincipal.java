@@ -81,7 +81,8 @@ public class MenuPrincipal {
         boolean seguir = true;
         ContratacionService cs = new ContratacionService();
         CalculoEntrenamientos ce = new CalculoEntrenamientos();
-        
+        ObjectMapper mapper = new ObjectMapper();
+
         while (seguir) {
             System.out.println("\n\n\n\n------- MENU PRINCIPAL -------");
             System.out.println("1 - Realizar contrataciones");
@@ -92,7 +93,9 @@ public class MenuPrincipal {
             System.out.println("6 - Listar artistas contratados");
             System.out.println("7 - Listar estado de las canciones");
             System.out.println("8 - Entrenamientos minimos a realizar para cubrir todas las canciones");
-            System.out.println("9 - Salir");
+            //BONUS Importar recital previo
+            System.out.println("9 - Importar recital previo");
+            System.out.println("10 - Salir");
             System.out.print("Seleccione una opcion: ");
 
             String opcion = mp.nextLine();
@@ -297,6 +300,14 @@ public class MenuPrincipal {
                     ce.calcular(recital);
                     break;
                 case "9":
+                    try {
+                          recital = mapper.readValue(new File("recital-out.json"), Recital.class);
+                          System.out.println("Recital cargado con exito!");
+                      } catch (Exception e) {
+                          System.out.println("Error al cargar el archivo: " + e.getMessage());
+                      }
+                    break;
+                case "10":
                     seguir = false;
                     break;
 
@@ -322,8 +333,13 @@ public class MenuPrincipal {
         System.out.println("Artistas usados: " + usados.size());
         */
         
-        //Bonus - Realizar exportacion
-        ExportadorRecital.exportar(recital);
+        //Bonus - Realizar exportacion del estado del recital
+        mapper.writerWithDefaultPrettyPrinter().writeValue(
+            new File("recital-out.json"),
+            recital
+        );
+        System.out.println("Archivo recital-out.json exportado!");
+
     }
     
     public static void entrenarArtistas(Recital recital) {
@@ -420,6 +436,5 @@ public class MenuPrincipal {
         }
         return artistas.get(opcion - 1);
     }
-
 
 }

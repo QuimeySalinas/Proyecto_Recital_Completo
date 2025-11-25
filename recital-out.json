@@ -1,141 +1,312 @@
 {
-  "costoTotalRecital" : 2875.0,
   "canciones" : [ {
-    "titulo" : "De Música Ligera",
-    "estado" : "INCOMPLETA",
-    "costo" : 0.0,
-    "rolesFaltantes" : {
+    "nombre" : "De Música Ligera",
+    "roles" : {
+      "voz principal" : 1,
       "bajo" : 1,
+      "guitarra eléctrica" : 1,
       "batería" : 1
     },
-    "asignaciones" : [ ]
+    "asignaciones" : [ {
+      "artista" : {
+        "nombre" : "Claudia Puyó",
+        "roles" : [ "voz principal" ],
+        "bandas" : [ ],
+        "costoBase" : 600.0,
+        "maxCanciones" : 3,
+        "base" : false,
+        "asignaciones" : 1
+      },
+      "rol" : "voz principal"
+    }, {
+      "artista" : {
+        "nombre" : "Javier Malosetti",
+        "roles" : [ "bajo" ],
+        "bandas" : [ ],
+        "costoBase" : 950.0,
+        "maxCanciones" : 5,
+        "base" : false,
+        "asignaciones" : 1
+      },
+      "rol" : "bajo"
+    }, {
+      "artista" : {
+        "nombre" : "Fernando Ruiz Díaz",
+        "roles" : [ "voz principal", "guitarra eléctrica" ],
+        "bandas" : [ "Catupecu Machu" ],
+        "costoBase" : 900.0,
+        "maxCanciones" : 4,
+        "base" : false,
+        "asignaciones" : 1
+      },
+      "rol" : "guitarra eléctrica"
+    }, {
+      "artista" : {
+        "nombre" : "Gustavo Rowek",
+        "roles" : [ "batería" ],
+        "bandas" : [ "Rata Blanca" ],
+        "costoBase" : 850.0,
+        "maxCanciones" : 6,
+        "base" : false,
+        "asignaciones" : 1
+      },
+      "rol" : "batería"
+    } ]
   }, {
-    "titulo" : "Persiana Americana",
-    "estado" : "INCOMPLETA",
-    "costo" : 0.0,
-    "rolesFaltantes" : {
+    "nombre" : "Persiana Americana",
+    "roles" : {
+      "voz principal" : 1,
       "bajo" : 1,
+      "guitarra eléctrica" : 1,
       "batería" : 1
     },
     "asignaciones" : [ ]
   }, {
-    "titulo" : "Seminare",
-    "estado" : "INCOMPLETA",
-    "costo" : 0.0,
-    "rolesFaltantes" : {
+    "nombre" : "Seminare",
+    "roles" : {
+      "piano" : 1,
+      "voz principal" : 1,
       "batería" : 1
     },
     "asignaciones" : [ ]
   }, {
-    "titulo" : "Ji Ji Ji",
-    "estado" : "INCOMPLETA",
-    "costo" : 0.0,
-    "rolesFaltantes" : {
+    "nombre" : "Ji Ji Ji",
+    "roles" : {
+      "voz principal" : 1,
       "bajo" : 1,
+      "guitarra eléctrica" : 1,
       "batería" : 1
     },
     "asignaciones" : [ ]
   }, {
-    "titulo" : "Costumbres Argentinas",
-    "estado" : "INCOMPLETA",
-    "costo" : 0.0,
-    "rolesFaltantes" : {
-      "bajo" : 1
+    "nombre" : "Costumbres Argentinas",
+    "roles" : {
+      "voz principal" : 1,
+      "bajo" : 1,
+      "guitarra eléctrica" : 1
     },
     "asignaciones" : [ ]
   }, {
-    "titulo" : "La Balsa",
-    "estado" : "INCOMPLETA",
-    "costo" : 0.0,
-    "rolesFaltantes" : {
+    "nombre" : "La Balsa",
+    "roles" : {
+      "voz principal" : 1,
+      "guitarra eléctrica" : 1,
       "armónica" : 1,
       "batería" : 1
     },
     "asignaciones" : [ ]
   }, {
-    "titulo" : "El Ojo Blindado",
-    "estado" : "INCOMPLETA",
-    "costo" : 0.0,
-    "rolesFaltantes" : {
+    "nombre" : "El Ojo Blindado",
+    "roles" : {
+      "voz principal" : 1,
       "bajo" : 1,
+      "guitarra eléctrica" : 1,
       "armónica" : 1
     },
     "asignaciones" : [ ]
   }, {
-    "titulo" : "El Anillo del Capitán Beto",
-    "estado" : "INCOMPLETA",
-    "costo" : 0.0,
-    "rolesFaltantes" : {
+    "nombre" : "El Anillo del Capitán Beto",
+    "roles" : {
+      "piano" : 1,
+      "voz principal" : 1,
       "batería" : 1
     },
     "asignaciones" : [ ]
   }, {
-    "titulo" : "Todo un Palo",
-    "estado" : "INCOMPLETA",
-    "costo" : 0.0,
-    "rolesFaltantes" : {
-      "batería" : 1,
-      "bajo" : 1
+    "nombre" : "Todo un Palo",
+    "roles" : {
+      "voz principal" : 1,
+      "bajo" : 1,
+      "batería" : 1
     },
     "asignaciones" : [ ]
   }, {
-    "titulo" : "En la Ciudad de la Furia",
-    "estado" : "INCOMPLETA",
-    "costo" : 0.0,
-    "rolesFaltantes" : {
+    "nombre" : "En la Ciudad de la Furia",
+    "roles" : {
+      "voz principal" : 1,
+      "guitarra eléctrica" : 1,
       "batería" : 1,
       "coros" : 1
     },
     "asignaciones" : [ ]
   }, {
-    "titulo" : "Prófugos",
-    "estado" : "COMPLETA",
-    "costo" : 2875.0,
-    "rolesFaltantes" : { },
-    "asignaciones" : [ {
-      "artista" : "Claudia Puyó",
-      "rol" : "voz principal"
-    }, {
-      "artista" : "Javier Malosetti",
-      "rol" : "bajo"
-    }, {
-      "artista" : "Fernando Ruiz Díaz",
-      "rol" : "guitarra eléctrica"
-    }, {
-      "artista" : "Gustavo Rowek",
-      "rol" : "batería"
-    } ]
+    "nombre" : "Prófugos",
+    "roles" : {
+      "voz principal" : 1,
+      "bajo" : 1,
+      "guitarra eléctrica" : 1,
+      "batería" : 1
+    },
+    "asignaciones" : [ ]
   }, {
-    "titulo" : "Rasguña las Piedras",
-    "estado" : "INCOMPLETA",
-    "costo" : 0.0,
-    "rolesFaltantes" : {
+    "nombre" : "Rasguña las Piedras",
+    "roles" : {
+      "piano" : 1,
+      "voz principal" : 1,
       "batería" : 1
     },
     "asignaciones" : [ ]
   } ],
-  "artistasUsados" : 4,
-  "artistasContratados" : [ {
-    "nombre" : "Gustavo Rowek",
-    "roles" : [ "batería" ],
-    "asignadoACanciones" : 1,
-    "costoPorCancion" : 425.0
+  "base" : [ {
+    "nombre" : "Gustavo Cerati",
+    "roles" : [ "voz principal", "guitarra eléctrica" ],
+    "bandas" : [ "Soda Stereo" ],
+    "costoBase" : 1200.0,
+    "maxCanciones" : 6,
+    "base" : true,
+    "asignaciones" : 0
   }, {
-    "nombre" : "Javier Malosetti",
-    "roles" : [ "bajo" ],
-    "asignadoACanciones" : 1,
-    "costoPorCancion" : 950.0
+    "nombre" : "Ricardo Mollo",
+    "roles" : [ "voz principal", "guitarra eléctrica" ],
+    "bandas" : [ "Divididos" ],
+    "costoBase" : 900.0,
+    "maxCanciones" : 5,
+    "base" : true,
+    "asignaciones" : 0
   }, {
-    "nombre" : "Claudia Puyó",
+    "nombre" : "Fito Páez",
+    "roles" : [ "piano", "voz principal" ],
+    "bandas" : [ ],
+    "costoBase" : 1300.0,
+    "maxCanciones" : 4,
+    "base" : true,
+    "asignaciones" : 0
+  }, {
+    "nombre" : "Adrián Barilari",
     "roles" : [ "voz principal" ],
-    "asignadoACanciones" : 1,
-    "costoPorCancion" : 600.0
+    "bandas" : [ "Rata Blanca" ],
+    "costoBase" : 1000.0,
+    "maxCanciones" : 3,
+    "base" : true,
+    "asignaciones" : 0
+  } ],
+  "contratados" : [ {
+    "nombre" : "Charly García",
+    "roles" : [ "piano", "voz principal" ],
+    "bandas" : [ "Seru Giran", "Sui Generis", "La Máquina de Hacer Pájaros" ],
+    "costoBase" : 1500.0,
+    "maxCanciones" : 5,
+    "base" : false,
+    "asignaciones" : 0
+  }, {
+    "nombre" : "Luis Alberto Spinetta",
+    "roles" : [ "voz principal", "guitarra eléctrica" ],
+    "bandas" : [ "Almendra", "Pescado Rabioso", "Spinetta Jade" ],
+    "costoBase" : 1400.0,
+    "maxCanciones" : 5,
+    "base" : false,
+    "asignaciones" : 0
+  }, {
+    "nombre" : "Indio Solari",
+    "roles" : [ "voz principal" ],
+    "bandas" : [ "Patricio Rey y sus Redonditos de Ricota" ],
+    "costoBase" : 2000.0,
+    "maxCanciones" : 3,
+    "base" : false,
+    "asignaciones" : 0
+  }, {
+    "nombre" : "Skay Beilinson",
+    "roles" : [ "guitarra eléctrica" ],
+    "bandas" : [ "Patricio Rey y sus Redonditos de Ricota" ],
+    "costoBase" : 1000.0,
+    "maxCanciones" : 5,
+    "base" : false,
+    "asignaciones" : 0
+  }, {
+    "nombre" : "David Lebón",
+    "roles" : [ "voz principal", "guitarra eléctrica" ],
+    "bandas" : [ "Seru Giran" ],
+    "costoBase" : 1100.0,
+    "maxCanciones" : 4,
+    "base" : false,
+    "asignaciones" : 0
+  }, {
+    "nombre" : "Pedro Aznar",
+    "roles" : [ "voz principal", "bajo" ],
+    "bandas" : [ "Seru Giran" ],
+    "costoBase" : 1000.0,
+    "maxCanciones" : 4,
+    "base" : false,
+    "asignaciones" : 0
+  }, {
+    "nombre" : "Andrés Calamaro",
+    "roles" : [ "teclado", "voz principal" ],
+    "bandas" : [ "Los Rodríguez" ],
+    "costoBase" : 1200.0,
+    "maxCanciones" : 4,
+    "base" : false,
+    "asignaciones" : 0
+  }, {
+    "nombre" : "Adrián Dárgelos",
+    "roles" : [ "voz principal" ],
+    "bandas" : [ "Babasónicos" ],
+    "costoBase" : 950.0,
+    "maxCanciones" : 4,
+    "base" : false,
+    "asignaciones" : 0
+  }, {
+    "nombre" : "Emmanuel Horvilleur",
+    "roles" : [ "voz principal" ],
+    "bandas" : [ "Illya Kuryaki and the Valderramas" ],
+    "costoBase" : 800.0,
+    "maxCanciones" : 3,
+    "base" : false,
+    "asignaciones" : 0
+  }, {
+    "nombre" : "Dante Spinetta",
+    "roles" : [ "voz principal" ],
+    "bandas" : [ "Illya Kuryaki and the Valderramas" ],
+    "costoBase" : 800.0,
+    "maxCanciones" : 3,
+    "base" : false,
+    "asignaciones" : 0
   }, {
     "nombre" : "Fernando Ruiz Díaz",
     "roles" : [ "voz principal", "guitarra eléctrica" ],
-    "asignadoACanciones" : 1,
-    "costoPorCancion" : 900.0
-  } ],
-  "cancionesIncompletas" : 11,
-  "cancionesCompletas" : 1
+    "bandas" : [ "Catupecu Machu" ],
+    "costoBase" : 900.0,
+    "maxCanciones" : 4,
+    "base" : false,
+    "asignaciones" : 1
+  }, {
+    "nombre" : "Walther Sidotti",
+    "roles" : [ "batería" ],
+    "bandas" : [ "Patricio Rey y sus Redonditos de Ricota" ],
+    "costoBase" : 700.0,
+    "maxCanciones" : 6,
+    "base" : false,
+    "asignaciones" : 0
+  }, {
+    "nombre" : "Javier Malosetti",
+    "roles" : [ "bajo" ],
+    "bandas" : [ ],
+    "costoBase" : 950.0,
+    "maxCanciones" : 5,
+    "base" : false,
+    "asignaciones" : 1
+  }, {
+    "nombre" : "Gustavo Rowek",
+    "roles" : [ "batería" ],
+    "bandas" : [ "Rata Blanca" ],
+    "costoBase" : 850.0,
+    "maxCanciones" : 6,
+    "base" : false,
+    "asignaciones" : 1
+  }, {
+    "nombre" : "Claudia Puyó",
+    "roles" : [ "voz principal" ],
+    "bandas" : [ ],
+    "costoBase" : 600.0,
+    "maxCanciones" : 3,
+    "base" : false,
+    "asignaciones" : 1
+  }, {
+    "nombre" : "Marilina Bertoldi",
+    "roles" : [ "voz principal", "guitarra eléctrica" ],
+    "bandas" : [ ],
+    "costoBase" : 900.0,
+    "maxCanciones" : 4,
+    "base" : false,
+    "asignaciones" : 0
+  } ]
 }
