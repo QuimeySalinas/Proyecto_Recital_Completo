@@ -89,13 +89,14 @@ public class MenuPrincipal {
             System.out.println("2 - Entrenar artistas");
             System.out.println("3 - Listar roles faltantes por cancion");
             System.out.println("4 - Listar roles faltantes por todas las canciones");
-            System.out.println("5 - Contratar artista para cancion");
+            System.out.println("5 - Contratar artistas para cancion");
             System.out.println("6 - Listar artistas contratados");
             System.out.println("7 - Listar estado de las canciones");
             System.out.println("8 - Entrenamientos minimos a realizar para cubrir todas las canciones");
             //BONUS Importar recital previo
             System.out.println("9 - Importar recital previo");
-            System.out.println("10 - Salir");
+            System.out.println("10 - Eliminar artista de recital");
+            System.out.println("11 - Salir");
             System.out.print("Seleccione una opcion: ");
 
             String opcion = mp.nextLine();
@@ -307,7 +308,46 @@ public class MenuPrincipal {
                           System.out.println("Error al cargar el archivo: " + e.getMessage());
                       }
                     break;
+                
                 case "10":
+                    //Lista de artistas asignados
+                    Set<Artista> artistasAsignados = new HashSet<>();
+                    for (Cancion can : recital.getCanciones()) {
+                        for (AsignacionRol ar : can.getAsignaciones()) {
+                            artistasAsignados.add(ar.getArtista());
+                        }
+                    }
+                    if (artistasAsignados.isEmpty()) {
+                        System.out.println("No hay artistas asignados en el recital.");
+                        break;
+                    }
+                    List<Artista> listaParaSeleccion = new ArrayList<>(artistasAsignados);
+
+                    Artista artistaAEliminar = seleccionarArtista(mp, listaParaSeleccion);
+                    if (artistaAEliminar == null) {
+                        System.out.println("No se selecciono un artista valido.");
+                        break;
+                    }
+
+                    System.out.println("\nEliminando todas las asignaciones de: " + artistaAEliminar.getNombre());
+
+                    //Eliminamos TODAS las asignaciones del artista en cada cancion
+                    for (Cancion can : recital.getCanciones()) {
+                        int antes = can.getAsignaciones().size();
+                        // removemos todas las asignaciones cuyo artista coincida
+                        can.getAsignaciones().removeIf(ar -> ar.getArtista().equals(artistaAEliminar));
+                        int despues = can.getAsignaciones().size();
+                        int eliminadas = antes - despues;
+                        if (eliminadas > 0) {
+                            artistaAEliminar.setAsignaciones(
+                                artistaAEliminar.getAsignaciones() - eliminadas
+                            );
+                        }
+                    }
+
+                    System.out.println("Artista eliminado correctamente del recital.");
+                    break;
+                case "11":
                     seguir = false;
                     break;
 
@@ -418,7 +458,7 @@ public class MenuPrincipal {
         return canciones.get(opcion - 1);
     }
     public static Artista seleccionarArtista(Scanner sc, List<Artista> artistas) {
-        System.out.println("=== Seleccione un artista ===");
+        System.out.println("\n\nSeleccione un artista");
         if (artistas.isEmpty()) {
             System.out.println("No hay artistas cargados.");
             return null;
@@ -436,5 +476,5 @@ public class MenuPrincipal {
         }
         return artistas.get(opcion - 1);
     }
-
+    
 }
