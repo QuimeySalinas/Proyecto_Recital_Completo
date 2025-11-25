@@ -1,0 +1,142 @@
+[
+  {
+    "nombre": "Gustavo Cerati",
+    "roles": ["voz principal", "guitarra eléctrica"],
+    "bandas": ["Soda Stereo"],
+    "costo": 1200,
+    "maxCanciones": 6
+  },
+  {
+    "nombre": "Charly García",
+    "roles": ["voz principal", "piano"],
+    "bandas": ["Seru Giran", "Sui Generis", "La Máquina de Hacer Pájaros"],
+    "costo": 1500,
+    "maxCanciones": 5
+  },
+  {
+    "nombre": "Luis Alberto Spinetta",
+    "roles": ["voz principal", "guitarra eléctrica"],
+    "bandas": ["Almendra", "Pescado Rabioso", "Spinetta Jade"],
+    "costo": 1400,
+    "maxCanciones": 5
+  },
+  {
+    "nombre": "Ricardo Mollo",
+    "roles": ["voz principal", "guitarra eléctrica"],
+    "bandas": ["Divididos"],
+    "costo": 900,
+    "maxCanciones": 5
+  },
+  {
+    "nombre": "Indio Solari",
+    "roles": ["voz principal"],
+    "bandas": ["Patricio Rey y sus Redonditos de Ricota"],
+    "costo": 2000,
+    "maxCanciones": 3
+  },
+  {
+    "nombre": "Skay Beilinson",
+    "roles": ["guitarra eléctrica"],
+    "bandas": ["Patricio Rey y sus Redonditos de Ricota"],
+    "costo": 1000,
+    "maxCanciones": 5
+  },
+  {
+    "nombre": "Fito Páez",
+    "roles": ["voz principal", "piano"],
+    "bandas": [],
+    "costo": 1300,
+    "maxCanciones": 4
+  },
+  {
+    "nombre": "David Lebón",
+    "roles": ["voz principal", "guitarra eléctrica"],
+    "bandas": ["Seru Giran"],
+    "costo": 1100,
+    "maxCanciones": 4
+  },
+  {
+    "nombre": "Pedro Aznar",
+    "roles": ["voz principal", "bajo"],
+    "bandas": ["Seru Giran"],
+    "costo": 1000,
+    "maxCanciones": 4
+  },
+  {
+    "nombre": "Andrés Calamaro",
+    "roles": ["voz principal", "teclado"],
+    "bandas": ["Los Rodríguez"],
+    "costo": 1200,
+    "maxCanciones": 4
+  },
+  {
+    "nombre": "Adrián Dárgelos",
+    "roles": ["voz principal"],
+    "bandas": ["Babasónicos"],
+    "costo": 950,
+    "maxCanciones": 4
+  },
+  {
+    "nombre": "Emmanuel Horvilleur",
+    "roles": ["voz principal"],
+    "bandas": ["Illya Kuryaki and the Valderramas"],
+    "costo": 800,
+    "maxCanciones": 3
+  },
+  {
+    "nombre": "Dante Spinetta",
+    "roles": ["voz principal"],
+    "bandas": ["Illya Kuryaki and the Valderramas"],
+    "costo": 800,
+    "maxCanciones": 3
+  },
+  {
+    "nombre": "Fernando Ruiz Díaz",
+    "roles": ["voz principal", "guitarra eléctrica"],
+    "bandas": ["Catupecu Machu"],
+    "costo": 900,
+    "maxCanciones": 4
+  },
+  {
+    "nombre": "Walther Sidotti",
+    "roles": ["batería"],
+    "bandas": ["Patricio Rey y sus Redonditos de Ricota"],
+    "costo": 700,
+    "maxCanciones": 6
+  },
+  {
+    "nombre": "Javier Malosetti",
+    "roles": ["bajo"],
+    "bandas": [],
+    "costo": 950,
+    "maxCanciones": 5
+  },
+  {
+    "nombre": "Gustavo Rowek",
+    "roles": ["batería"],
+    "bandas": ["Rata Blanca"],
+    "costo": 850,
+    "maxCanciones": 6
+  },
+  {
+    "nombre": "Adrián Barilari",
+    "roles": ["voz principal"],
+    "bandas": ["Rata Blanca"],
+    "costo": 1000,
+    "maxCanciones": 3
+  },
+  {
+    "nombre": "Claudia Puyó",
+    "roles": ["voz principal"],
+    "bandas": [],
+    "costo": 600,
+    "maxCanciones": 3
+  },
+  {
+    "nombre": "Marilina Bertoldi",
+    "roles": ["voz principal", "guitarra eléctrica"],
+    "bandas": [],
+    "costo": 900,
+    "maxCanciones": 4
+  }
+]

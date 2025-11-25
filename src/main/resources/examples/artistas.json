@@ -1,0 +1,115 @@
+[
+
+  {
+
+    "nombre": "Brian May",
+
+    "roles": ["guitarra eléctrica", "voz secundaria"],
+
+    "bandas": ["Queen"],
+
+    "costo": 0,
+
+    "maxCanciones": 100
+
+  },
+
+  {
+
+    "nombre": "Roger Taylor",
+
+    "roles": ["batería", "voz secundaria"],
+
+    "bandas": ["Queen"],
+
+    "costo": 0,
+
+    "maxCanciones": 100
+
+  },
+
+  {
+
+    "nombre": "John Deacon",
+
+    "roles": ["bajo"],
+
+    "bandas": ["Queen"],
+
+    "costo": 0,
+
+    "maxCanciones": 100
+
+  },
+
+  {
+
+    "nombre": "George Michael",
+
+    "roles": ["voz principal"],
+
+    "bandas": ["Wham!", "George Michael"],
+
+    "costo": 1000,
+
+    "maxCanciones": 3
+
+  },
+
+  {
+
+    "nombre": "Elton John",
+
+    "roles": ["voz principal", "piano"],
+
+    "bandas": ["Elton John Band"],
+
+    "costo": 1200,
+
+    "maxCanciones": 2
+
+  },
+
+  {
+
+    "nombre": "David Bowie",
+
+    "roles": ["voz principal"],
+
+    "bandas": ["Tin Machine", "David Bowie"],
+
+    "costo": 1500,
+
+    "maxCanciones": 2
+
+  },
+
+  {
+
+    "nombre": "Annie Lennox",
+
+    "roles": ["voz principal"],
+
+    "bandas": ["Eurythmics"],
+
+    "costo": 900,
+
+    "maxCanciones": 2
+
+  },
+
+  {
+
+    "nombre": "Lisa Stansfield",
+
+    "roles": ["voz principal"],
+
+    "bandas": ["Lisa Stansfield"],
+
+    "costo": 800,
+
+    "maxCanciones": 2
+
+  }
+
+]

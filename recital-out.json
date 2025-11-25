@@ -1,0 +1,141 @@
+{
+  "costoTotalRecital" : 2875.0,
+  "canciones" : [ {
+    "titulo" : "De Música Ligera",
+    "estado" : "INCOMPLETA",
+    "costo" : 0.0,
+    "rolesFaltantes" : {
+      "bajo" : 1,
+      "batería" : 1
+    },
+    "asignaciones" : [ ]
+  }, {
+    "titulo" : "Persiana Americana",
+    "estado" : "INCOMPLETA",
+    "costo" : 0.0,
+    "rolesFaltantes" : {
+      "bajo" : 1,
+      "batería" : 1
+    },
+    "asignaciones" : [ ]
+  }, {
+    "titulo" : "Seminare",
+    "estado" : "INCOMPLETA",
+    "costo" : 0.0,
+    "rolesFaltantes" : {
+      "batería" : 1
+    },
+    "asignaciones" : [ ]
+  }, {
+    "titulo" : "Ji Ji Ji",
+    "estado" : "INCOMPLETA",
+    "costo" : 0.0,
+    "rolesFaltantes" : {
+      "bajo" : 1,
+      "batería" : 1
+    },
+    "asignaciones" : [ ]
+  }, {
+    "titulo" : "Costumbres Argentinas",
+    "estado" : "INCOMPLETA",
+    "costo" : 0.0,
+    "rolesFaltantes" : {
+      "bajo" : 1
+    },
+    "asignaciones" : [ ]
+  }, {
+    "titulo" : "La Balsa",
+    "estado" : "INCOMPLETA",
+    "costo" : 0.0,
+    "rolesFaltantes" : {
+      "armónica" : 1,
+      "batería" : 1
+    },
+    "asignaciones" : [ ]
+  }, {
+    "titulo" : "El Ojo Blindado",
+    "estado" : "INCOMPLETA",
+    "costo" : 0.0,
+    "rolesFaltantes" : {
+      "bajo" : 1,
+      "armónica" : 1
+    },
+    "asignaciones" : [ ]
+  }, {
+    "titulo" : "El Anillo del Capitán Beto",
+    "estado" : "INCOMPLETA",
+    "costo" : 0.0,
+    "rolesFaltantes" : {
+      "batería" : 1
+    },
+    "asignaciones" : [ ]
+  }, {
+    "titulo" : "Todo un Palo",
+    "estado" : "INCOMPLETA",
+    "costo" : 0.0,
+    "rolesFaltantes" : {
+      "batería" : 1,
+      "bajo" : 1
+    },
+    "asignaciones" : [ ]
+  }, {
+    "titulo" : "En la Ciudad de la Furia",
+    "estado" : "INCOMPLETA",
+    "costo" : 0.0,
+    "rolesFaltantes" : {
+      "batería" : 1,
+      "coros" : 1
+    },
+    "asignaciones" : [ ]
+  }, {
+    "titulo" : "Prófugos",
+    "estado" : "COMPLETA",
+    "costo" : 2875.0,
+    "rolesFaltantes" : { },
+    "asignaciones" : [ {
+      "artista" : "Claudia Puyó",
+      "rol" : "voz principal"
+    }, {
+      "artista" : "Javier Malosetti",
+      "rol" : "bajo"
+    }, {
+      "artista" : "Fernando Ruiz Díaz",
+      "rol" : "guitarra eléctrica"
+    }, {
+      "artista" : "Gustavo Rowek",
+      "rol" : "batería"
+    } ]
+  }, {
+    "titulo" : "Rasguña las Piedras",
+    "estado" : "INCOMPLETA",
+    "costo" : 0.0,
+    "rolesFaltantes" : {
+      "batería" : 1
+    },
+    "asignaciones" : [ ]
+  } ],
+  "artistasUsados" : 4,
+  "artistasContratados" : [ {
+    "nombre" : "Gustavo Rowek",
+    "roles" : [ "batería" ],
+    "asignadoACanciones" : 1,
+    "costoPorCancion" : 425.0
+  }, {
+    "nombre" : "Javier Malosetti",
+    "roles" : [ "bajo" ],
+    "asignadoACanciones" : 1,
+    "costoPorCancion" : 950.0
+  }, {
+    "nombre" : "Claudia Puyó",
+    "roles" : [ "voz principal" ],
+    "asignadoACanciones" : 1,
+    "costoPorCancion" : 600.0
+  }, {
+    "nombre" : "Fernando Ruiz Díaz",
+    "roles" : [ "voz principal", "guitarra eléctrica" ],
+    "asignadoACanciones" : 1,
+    "costoPorCancion" : 900.0
+  } ],
+  "cancionesIncompletas" : 11,
+  "cancionesCompletas" : 1
+}

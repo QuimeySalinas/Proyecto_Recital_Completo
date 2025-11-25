@@ -1,0 +1,50 @@
+[
+  {
+    "titulo": "De Música Ligera",
+    "rolesRequeridos": ["voz principal", "guitarra eléctrica", "bajo", "batería"]
+  },
+  {
+    "titulo": "Persiana Americana",
+    "rolesRequeridos": ["voz principal", "guitarra eléctrica", "bajo", "batería"]
+  },
+  {
+    "titulo": "Seminare",
+    "rolesRequeridos": ["voz principal", "piano", "batería"]
+  },
+  {
+    "titulo": "Ji Ji Ji",
+    "rolesRequeridos": ["voz principal", "guitarra eléctrica", "bajo", "batería"]
+  },
+  {
+    "titulo": "Costumbres Argentinas",
+    "rolesRequeridos": ["voz principal", "guitarra eléctrica", "bajo"]
+  },
+  {
+    "titulo": "La Balsa",
+    "rolesRequeridos": ["voz principal", "guitarra eléctrica", "batería","armónica"]
+  },
+  {
+    "titulo": "El Ojo Blindado",
+    "rolesRequeridos": ["voz principal", "guitarra eléctrica", "bajo","armónica"]
+  },
+  {
+    "titulo": "El Anillo del Capitán Beto",
+    "rolesRequeridos": ["voz principal", "piano", "batería"]
+  },
+  {
+    "titulo": "Todo un Palo",
+    "rolesRequeridos": ["voz principal", "bajo", "batería"]
+  },
+  {
+    "titulo": "En la Ciudad de la Furia",
+    "rolesRequeridos": ["voz principal", "guitarra eléctrica", "batería","coros"]
+  },
+  {
+    "titulo": "Prófugos",
+    "rolesRequeridos": ["voz principal", "guitarra eléctrica", "bajo", "batería"]
+  },
+  {
+    "titulo": "Rasguña las Piedras",
+    "rolesRequeridos": ["voz principal", "piano", "batería"]
+  }
+]

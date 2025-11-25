@@ -1,0 +1,35 @@
+[
+
+  {
+
+    "titulo": "Somebody to Love",
+
+    "rolesRequeridos": ["voz principal", "guitarra eléctrica", "bajo", "batería", "piano"]
+
+  },
+
+  {
+
+    "titulo": "We Will Rock You",
+
+    "rolesRequeridos": ["voz principal", "guitarra eléctrica", "bajo", "batería"]
+
+  },
+
+  {
+
+    "titulo": "These Are the Days of Our Lives",
+
+    "rolesRequeridos": ["voz principal", "guitarra eléctrica", "bajo", "batería"]
+
+  },
+
+  {
+
+    "titulo": "Under Pressure",
+
+    "rolesRequeridos": ["voz principal", "voz principal", "guitarra eléctrica", "bajo", "batería"]
+
+  }
+
+]
