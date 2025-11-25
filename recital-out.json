@@ -7,51 +7,7 @@
       "guitarra eléctrica" : 1,
       "batería" : 1
     },
-    "asignaciones" : [ {
-      "artista" : {
-        "nombre" : "Claudia Puyó",
-        "roles" : [ "voz principal" ],
-        "bandas" : [ ],
-        "costoBase" : 600.0,
-        "maxCanciones" : 3,
-        "base" : false,
-        "asignaciones" : 1
-      },
-      "rol" : "voz principal"
-    }, {
-      "artista" : {
-        "nombre" : "Javier Malosetti",
-        "roles" : [ "bajo" ],
-        "bandas" : [ ],
-        "costoBase" : 950.0,
-        "maxCanciones" : 5,
-        "base" : false,
-        "asignaciones" : 1
-      },
-      "rol" : "bajo"
-    }, {
-      "artista" : {
-        "nombre" : "Fernando Ruiz Díaz",
-        "roles" : [ "voz principal", "guitarra eléctrica" ],
-        "bandas" : [ "Catupecu Machu" ],
-        "costoBase" : 900.0,
-        "maxCanciones" : 4,
-        "base" : false,
-        "asignaciones" : 1
-      },
-      "rol" : "guitarra eléctrica"
-    }, {
-      "artista" : {
-        "nombre" : "Gustavo Rowek",
-        "roles" : [ "batería" ],
-        "bandas" : [ "Rata Blanca" ],
-        "costoBase" : 850.0,
-        "maxCanciones" : 6,
-        "base" : false,
-        "asignaciones" : 1
-      },
-      "rol" : "batería"
-    } ]
+    "asignaciones" : [ ]
   }, {
     "nombre" : "Persiana Americana",
     "roles" : {
@@ -267,7 +223,7 @@
     "costoBase" : 900.0,
     "maxCanciones" : 4,
     "base" : false,
-    "asignaciones" : 1
+    "asignaciones" : 0
   }, {
     "nombre" : "Walther Sidotti",
     "roles" : [ "batería" ],
@@ -283,7 +239,7 @@
     "costoBase" : 950.0,
     "maxCanciones" : 5,
     "base" : false,
-    "asignaciones" : 1
+    "asignaciones" : 0
   }, {
     "nombre" : "Gustavo Rowek",
     "roles" : [ "batería" ],
@@ -291,7 +247,7 @@
     "costoBase" : 850.0,
     "maxCanciones" : 6,
     "base" : false,
-    "asignaciones" : 1
+    "asignaciones" : 0
   }, {
     "nombre" : "Claudia Puyó",
     "roles" : [ "voz principal" ],
@@ -299,7 +255,7 @@
     "costoBase" : 600.0,
     "maxCanciones" : 3,
     "base" : false,
-    "asignaciones" : 1
+    "asignaciones" : 0
   }, {
     "nombre" : "Marilina Bertoldi",
     "roles" : [ "voz principal", "guitarra eléctrica" ],

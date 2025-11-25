@@ -422,7 +422,7 @@ public class MenuPrincipal {
 
         // Pedir el rol
         System.out.print("Ingrese el nombre del rol a entrenar: ");
-        String nuevoRol = sc.nextLine().trim();
+        String nuevoRol = sc.nextLine().trim().toLowerCase();
 
         if (nuevoRol.isEmpty()) {
             System.out.println("No ingresó un rol válido.");
